@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Play';
-    src: url('../fonts/Play-Bold.ttf') format('truetype');
+    src: url('../Fonts/Play-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    src: url('../Fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -278,7 +278,7 @@ body {
 .adv-section {
     padding: 100px 0;
     position: relative;
-    background-image: url('../images/background-wave.svg');
+    background-image: url('../Images/background-wave.svg');
     background-repeat: no-repeat;
     background-position:top center;
     background-size: 100% auto;
@@ -414,7 +414,7 @@ body {
     width: 100%;
     max-width: 420px;
     box-sizing: border-box;
-    background-image: url('../images/contacts-background.png');
+    background-image: url('../Images/contacts-background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -473,8 +473,8 @@ body {
     padding: 56px 0 64px 0;
     background-color: var(--color-primary-dark);
     background-image:
-    url('../images/footer-bottles.png'),
-    url('../images/background-fotter.png');
+    url('../Images/footer-bottles.png'),
+    url('../Images/background-fotter.png');
     background-repeat: no-repeat, no-repeat;
     background-position: 100% calc(100% + 20px), center;
     background-size: 278px 213px, cover;
